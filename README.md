@@ -48,6 +48,10 @@ To start test script use:
 python test.py
 ```
 
+## Inference Code
+The inference code for competion submission note book can be found [here](inference-no-polygon.ipynb).
+
+
 ## Quantitative Results
 
 | Model | Backbone | Public Leader Board | Private Leader Board |
