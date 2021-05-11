@@ -50,9 +50,9 @@ python test.py
 
 ## Quantitative Results
 
-| Model | Dice Score | Dice Score |
-| ----- | ---- | ---- |
-| Unet | 0.7906 | Dice Score 
-| Segnet | 0.3684 | Dice Score 
-| DeeplabV3+ | 0.7743 | Dice Score 
-| Unet + Skip Connections + ASPP + SE Block| 0.8005 | Dice Score 
+| Model | Backbone | Public Leader Board | Private Leader Board |
+| ----- | ---- | ---- | ---- |
+| Unet | Efficient B2 | 0.921 | 0.918
+| Unet | Efficient B4 | 0.915 | 0.920
+| FPN | Efficient B2 | 0.918 | 0.916
+| FPN | Efficient B4 | 0.919 | 0.919
